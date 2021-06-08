@@ -1,7 +1,11 @@
 ---
-title: Poetry Pipelines in Azure Devops
-tags: poetry python azure-devops pipelines devops
+title: How to use Poetry for installing and publishing to and from an Artifact Feed 
+tags: poetry python azure-devops pipelines devops artifact-feed
 ---
+
+# How to use poetry for installing and publishing to and from an Artifact Feed 
+
+Poetry is a great package manager for Python, however it is not always supported for the different devops tools out there. This little guide offers a simple solution for the cases when you want to both install a private python package from a Azure Devops Artifact Feed and also publish the result of your current build to an Arifact Feed by using the `poetry build`command.
 
 Poetry is not directly suppored by Azure Devops, as it only has tasks for pip & twine. However we can use poetry in our pipelines to build our python package by using a few tricks. See the example below.
 
