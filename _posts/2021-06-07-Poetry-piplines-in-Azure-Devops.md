@@ -1,5 +1,6 @@
 ---
 title: How to use Poetry for installing and publishing to and from an Artifact Feed 
+date: 2021-06-07 23:00:00 -0000
 tags: poetry python azure-devops pipelines devops artifact-feed
 ---
 
